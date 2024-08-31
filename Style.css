@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9c846;
+  margin: 0;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: #333;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+form {
+  background-color: #fff05a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select,
+button {
+  width: calc(90% - 30px);
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 1px;
+  width: 40%;
+}
+
+button:hover {
+  background-color: #1ba826;
+}
+
+#bmiResult {
+  font-weight: bold;
+  color: green;
+  font-size: 50px;
+}
+
+#historyList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#historyList li {
+  background-color: #e8eaf6;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+:root {
+    --underweight: #5bc0de;
+    --normal: #5cb85c;
+    --overweight: #f0ad4e;
+    --obese: #d9534f;
+}
+
+.bmi-scale {
+  display: flex;
+}
+
+.bmi-scale div {
+  flex: 1;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 5px solid var(--color);
+  padding: 10px;
+}
+
+.bmi-scale h4 {
+  font-size: 0.75rem;
+  color: rgb(15, 70, 126);
+}
+
+.bmi-scale h4 {
+  font-size: 0.75rem;
+  color: rgb(15, 70, 126);
+}
+
+.underweight {
+  color: var(--underweight);
+}
+
+.healthy {
+  color: var(--normal);
+}
+
+.overweight {
+  color: var(--overweight);
+}
